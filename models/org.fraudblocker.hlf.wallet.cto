@@ -1,0 +1,6 @@
+namespace org.fraudblocker.hlf.wallet
+
+asset Wallet identified by WalletID {
+  o String WalletID
+  o Integer token range=[0,]
+}

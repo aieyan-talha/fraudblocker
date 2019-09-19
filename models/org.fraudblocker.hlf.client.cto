@@ -1,0 +1,30 @@
+namespace org.fraudblocker.hlf.client
+
+import org.fraudblocker.hlf.wallet.Wallet
+
+concept ProfileInfo {
+  o String first_name
+  o String last_name
+  o String email
+  o String address
+  o String contact_no
+}
+
+participant Client identified by Username {
+  o String Username
+  o ProfileInfo Info
+  o Wallet wallet
+}
+
+transaction CreateClient {
+  o String Username
+  o String first_name
+  o String last_name
+  o String email
+  o String address
+  o String contact_no
+}
+
+event ClientCreated {
+  o String Username
+}
