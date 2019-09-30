@@ -1,0 +1,11 @@
+export COMPOSER_DATASOURCES='{
+    "db":{
+      "name": "db",
+      "host": "ds145370.mlab.com",
+      "port": "45370",
+      "database": "fraudblocker-auth",
+      "user": "test",
+      "password": "test123",
+      "connector": "mongodb"
+    }
+  }'

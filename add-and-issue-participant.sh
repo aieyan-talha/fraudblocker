@@ -1,21 +1,21 @@
 #Create an instance of a participant
 composer participant add -d '{
   "$class": "org.fraudblocker.hlf.client.Client",
-  "Username": "aieyan.talha",
+  "Username": "khizar.butt",
   "Info": {
     "$class": "org.fraudblocker.hlf.client.ProfileInfo",
-    "first_name": "Aieyan",
-    "last_name": "Talha",
-    "email": "aieyan.talha@nmxglobalsoftware.com",
-    "address": "Bahria Town, Islamabad",
-    "contact_no": "0320-5501928"
+    "first_name": "Khizar",
+    "last_name": "Butt",
+    "email": "khizar.butt@nmxglobalsoftware.com",
+    "address": "Bahria Town, Rawalpindi",
+    "contact_no": "0320-1546987"
   },
   "wallet": {
     "$class": "org.fraudblocker.hlf.wallet.Wallet",
-    "WalletID": "aieyan.talha",
-    "token": 0
+    "WalletID": "khizar.butt",
+    "token": 3
   }
 }' -c admin@fraudblocker
 
 #Issue an card to the participant
-composer identity issue -u aieyan -a org.fraudblocker.hlf.client.Client#aieyan.talha -c admin@fraudblocker
+composer identity issue -u khizar.butt -a org.fraudblocker.hlf.client.Client#khizar.butt -c admin@fraudblocker

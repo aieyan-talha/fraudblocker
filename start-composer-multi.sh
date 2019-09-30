@@ -9,11 +9,9 @@ export COMPOSER_MULTIUSER=true
 export COMPOSER_DATASOURCES='{
     "db":{
       "name": "db",
-      "host": "ds145370.mlab.com",
-      "port": "45370",
-      "database": "fraudblocker-auth",
-      "user": "test",
-      "password": "test123",
+      "host": "localhost",
+      "port": "27017",
+      "database": "fraudblocker",
       "connector": "mongodb"
     }
   }'

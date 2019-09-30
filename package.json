@@ -3,7 +3,7 @@
     "composer": "^0.20.9"
   },
   "name": "fraudblocker",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "fraudblocker is a web application that utilizes block-chain technology to prevent any sort of fraudulent activity in the supply chain network.",
   "scripts": {
     "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/fraudblocker.bna",
